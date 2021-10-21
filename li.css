@@ -1,0 +1,416 @@
+/*spolcne*/
+body{
+    background-color: #000d1a;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+@media(max-width: 480px) {
+    .menu {
+        
+        float:left;
+        margin: 0 100% 10px 0;
+
+    }
+}
+@media(min-width: 481px){
+    .menu{
+    display: flex;
+    margin: 0;
+    }
+}
+.menu {
+    
+    width: auto;
+    list-style-type: none;
+    
+    padding: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid #000099;
+    
+    
+    justify-content:space-between;
+    
+    
+
+
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#311d3f+0,b83b5e+100 */
+background: #311d3f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #311d3f 0%, #b83b5e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #311d3f 0%,#b83b5e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #311d3f 0%,#b83b5e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#311d3f', endColorstr='#b83b5e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.menu_li {
+    flex:1;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    padding: 10px;
+    width: 10%;
+    transition: all 0.3s;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.menu_li a {
+    
+    color: white;
+    
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu_li:hover {
+    border-color: white;
+}
+/*home */
+@media (min-width:481px){
+.inside {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    margin: 8% 0 0 25% ;
+    border-radius: 25px 25px;
+    background: #333333;
+}
+}
+@media (max-width:480px){
+    .inside {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        margin-top: 2%;
+        
+        background: #333333;
+    }
+}
+.inside h3 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#311d3f+0,b83b5e+55 */
+background: #311d3f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #311d3f 0%, #b83b5e 55%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #311d3f 0%,#b83b5e 55%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #311d3f 0%,#b83b5e 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#311d3f', endColorstr='#b83b5e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-radius: 25px 25px 0 0;
+    flex-basis: 100%;
+    color: white;
+    font-family: 'Lato';
+    font-size: 40px;
+    padding: 20px 40px;
+    margin: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000099;
+}
+.inside p {
+    color: #d9d9d9;
+    font-family: times;
+    width: 50%;
+    
+    float: left;
+    
+    padding: 30px 40px;
+    font-size: 13px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.inside p.left-p {
+    position: relative;
+}
+.inside p.left-p:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 60%;
+    margin: auto;
+    background: black;
+}
+.buy {
+    float: right;
+    width: 50%;
+    height: auto;
+    
+}
+.buy a {
+    background-color: #009933;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius: 25px 25px;
+    margin: 30px 50px 0;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.buy a:hover{
+    color: #f6f6f6;
+}
+
+.buy p{
+    background-color: rgba(255, 255, 255, 0.0);
+}
+.buy h2{
+    
+    color: rgb(20, 81, 131);
+}
+/*news */
+@media(min-width:481px) {
+    .news{
+        display: flex;
+        width:70%;
+        flex-flow: row wrap;
+        margin: 5% 15% 0;
+    }
+}
+@media(max-width:480px) {
+    .news{
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        margin: 120px 0 0;
+    }
+}
+
+.news{
+	border-radius: 25px 25px;
+    
+    overflow: hidden;
+
+    background-color:  #333333;
+	
+     
+    text-align: center;
+    
+}
+.img {
+    flex-basis: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.news h3 {
+    color: white;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#311d3f+0,b83b5e+55 */
+background: #311d3f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #311d3f 0%, #b83b5e 55%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #311d3f 0%,#b83b5e 55%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #311d3f 0%,#b83b5e 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#311d3f', endColorstr='#b83b5e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    flex-basis: 100%;
+    font-family: 'Lato';
+    font-style: bold;
+    font-size: 40px;
+    padding: 20px 40px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000099;
+}
+.news li, .news a{
+    float: left;
+    display: block;
+    padding-left: 12px;
+    height: 15px;
+    text-decoration: none;
+    color: gray;
+}
+.news p{
+    color: white;
+    font-size: larger;
+    padding: 3%;
+}
+.news a:hover {
+    text-decoration: underline;
+}
+/* about */
+@media (min-width:481px) {
+    div.tab{
+        float: left;
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 60%;
+        overflow: hidden;
+        padding: 15px 35px;
+    }
+    .tabcontent{
+        border-radius: 0 0 25px 25px;
+        margin-left: 20%;
+        width: 60%;
+        float: left;
+        display: none;
+        padding: 15px 35px;
+    }                
+}
+@media (max-width:480px) {
+    div.tab{
+        float: left;
+        margin-left: 1%;
+        margin-top: 5%;
+        width: 80%;
+        overflow: hidden;
+        padding: 15px 35px;
+    }
+    .tabcontent{
+        border-radius: 0 0 25px 25px;
+        margin-left: 1%;
+        width: 80%;
+        float: left;
+        display: none;
+        padding: 15px 35px;
+    }   
+}
+div.tab {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#311d3f+0,b83b5e+55 */
+background: #311d3f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #311d3f 0%, #b83b5e 55%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #311d3f 0%,#b83b5e 55%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #311d3f 0%,#b83b5e 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#311d3f', endColorstr='#b83b5e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    color: white;
+    font-family: 'Lato';
+    font-size: 40px;
+
+    text-transform: uppercase;
+    border-bottom: 2px solid #000099;
+    border-radius: 25px 25px 0 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-radius: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+div.tab button:hover {
+    border-color: #ddd;
+}
+
+div.tab button.active {
+    background-color:  rgba(255, 255, 255, 0.2);
+}
+
+.tabcontent {
+    color: white;
+    background-color: #333;
+}
+/* contact */
+@media(min-width:481px){
+    .contact {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        border-radius: 25px 25px 25px 25px;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+}
+@media(max-width:480px){
+    .contact {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:center;
+        border-radius: 25px 25px 25px 25px;
+        width: 90%;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+}
+.contact {
+     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#311d3f+0,b83b5e+55 */
+background: #311d3f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #311d3f 0%, #b83b5e 55%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #311d3f 0%,#b83b5e 55%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #311d3f 0%,#b83b5e 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#311d3f', endColorstr='#b83b5e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    text-align: center;
+    
+}
+
+.conTop{
+    border-top: 2px solid #000099;
+     background-color: #333;
+     display: flex;
+     flex-flow: row wrap;
+     border-radius: 0 0 25px 25px;
+}
+.conTop label{
+    margin: 2% 2% 2% 2%;
+    float: left;
+    margin-right: 80%;
+    text-align: center;
+    font-family: 'Lato';
+}
+#check{
+    margin-right: 5%;
+}
+
+.conTop input{
+    float: left;
+    margin: 2% 2% 2% 2%;
+
+}
+.conTop textarea{
+    margin: 2% 2% 2% 2%;
+    flex-basis: 50%;
+
+}
+.conTop .send{
+
+     background-color: #009933;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration:none;
+    border-radius: 25px 25px;
+    margin: 30px 50px;
+    width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.conTop .nick{
+     margin-right:0;
+}
